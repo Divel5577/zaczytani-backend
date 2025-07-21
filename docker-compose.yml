@@ -1,0 +1,6 @@
+services:
+  zaczytani.api:
+    image: ${DOCKER_REGISTRY-}zaczytaniapi
+    build:
+      context: .
+      dockerfile: Zaczytani.API/Dockerfile

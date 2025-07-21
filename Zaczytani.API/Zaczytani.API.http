@@ -1,0 +1,6 @@
+@Zaczytani.API_HostAddress = http://localhost:5062
+
+GET {{Zaczytani.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
